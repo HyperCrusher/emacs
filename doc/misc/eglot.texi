@@ -981,7 +981,6 @@ mechanism.
 Set this variable to true if you'd like progress notifications coming
 from the language server to be handled as Emacs's progress reporting
 facilities.
-@end table
 
 @vindex eglot-advertise-cancellation
 @cindex request cancellation
@@ -990,6 +989,7 @@ Setting this variable to true causes Eglot to send special cancellation
 notification for certain stale client request.  This may improve the
 performance of some LSP servers, who might be able to avoid doing costly
 but ultimately useless work on behalf of the client.
+@end table
 
 @node Advanced server configuration
 @chapter Advanced server configuration
